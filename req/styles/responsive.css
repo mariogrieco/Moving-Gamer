@@ -1,0 +1,79 @@
+/*	
+ Desktop version
+	v0.0.1	
+*/
+
+@media screen and ( min-width: 480px ){
+	header h1 a 
+	{
+		color: #fff;
+		font-size: 1.2em;
+		line-height: 50%;
+		vertical-align: middle;
+	}	
+	#video
+	{
+		display: inline-block;
+		float: right;
+		height: 125%;
+	}
+	#registro
+	{
+		-ms-transition: 1s all linear;
+		-moz-transition: 1s all linear;
+		-webkit-transition: 1s all linear;
+		transition: 1s all linear;
+		background: #45505c;
+		border: 0px;
+		display: block;
+		margin: 0px;
+	}
+	#slides
+	{
+		overflow: hidden;
+
+	}
+	#move
+	{
+		border-top: 1px solid rgb(173, 169, 169);
+	}
+ 	#move2, #move3,#move5,#move4
+ 	{
+ 		border-bottom: none;
+ 	}
+ 	#move4
+ 	{
+ 		color: black;
+ 		background: #d1d1d1;
+ 	}
+	.jo
+	{
+		height: 80px;
+		margin: 0em;
+		opacity: 1;
+		padding: 0em;
+	}	
+	.left
+	{
+		float: left;
+	}
+	.slides_1
+	{
+		border-top: 0px solid rgb(173, 169, 169);
+		border-bottom: 0px solid rgb(173, 169, 169);
+	}
+}
+/*	
+ mini mobile version
+	v0.0.1
+*/
+@media screen and (max-width: 480px){
+	body
+	{
+		
+	}
+	#registro div
+	{
+		margin-left: 1.25em;
+	}
+}
